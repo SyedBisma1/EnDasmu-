@@ -7,12 +7,11 @@
 html , body{
     height: 100%;
     width: 100%;
+    background-color: #171616
 }
-#main{
-
+ #main{
     color: #fff;
-    background-color: #171616;
-}
+ } 
 #nav a{
     text-decoration: none;
     color: #fff;
@@ -97,10 +96,12 @@ html , body{
     font-size: 15px;
     padding: 15px 38px;
     background-color:rgb(162, 226, 89, 0.986) ;
+    /* background-color: linear-gradient(rgb(12, 255, 12) , orange); */
     color: #000;
     border: none;
     font-weight: 500;
     border-radius: 27px;
+    
 
 }
 #btn1:hover{
@@ -147,14 +148,12 @@ html , body{
     font-weight: 100;
 }
 #btmdiv-p2{
-    /* gap: 2%; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-left: 400px;
     line-height: 10px;
-   
-    }
+ };
     #btm-text h3, #btm-text h2  {
      font-size: 20px;
      font-weight: 500;
